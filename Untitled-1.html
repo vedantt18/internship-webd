@@ -1,0 +1,83 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Oil & Lubrication Co.</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    <header>
+        <div class="container">
+            <h1><img src="C:\Users\vedan\Downloads\logo.jpg"alt="Oil & Lubrication Co. Logo" class="logo"></h1>
+            <nav>
+                <ul>
+                    <li><a href="#home">Home</a></li>
+                    <li><a href="#about">About</a></li>
+                    <li><a href="#services">Services</a></li>
+                    <li><a href="#contact">Contact</a></li>
+                </ul>
+            </nav>
+        </div>
+    </header>
+
+    <section id="home" class="hero">
+        <div class="container">
+            <h2>Your Trusted Oil & Lubrication Partner</h2>
+            <p>Providing quality oil and lubrication products for over 50 years.</p>
+            <a href="#services" class="btn">Our Services</a>
+        </div>
+    </section>
+
+    <section id="about">
+        <div class="container">
+            <h2>About Us</h2>
+            <p>We are committed to providing the best oil and lubrication products in the industry. With over five decades of experience, we understand the needs of our clients and strive to exceed their expectations.</p>
+        </div>
+    </section>
+
+    <section id="services">
+        <div class="container">
+            <h2>Our Services</h2>
+            <div class="service-cards">
+                <div class="card">
+                    <img src="C:\Users\vedan\OneDrive\Documents\Desktop\images\lub.jpg.webp" alt="lub.jpg">
+                    <h3>Industrial Lubricants</h3>
+                    <p>High-performance lubricants for industrial applications.</p>
+                </div>
+                <div class="card">
+                    <img src="C:\Users\vedan\OneDrive\Documents\Desktop\images\ok.jpg.webp" alt="Automotive Oils">
+                    <h3>Automotive Oils</h3>
+                    <p>Premium oils designed for all types of vehicles.</p>
+                </div>
+                <div class="card">
+                    <img src="C:\Users\vedan\OneDrive\Documents\Desktop\images\auto1.jpg.webp" alt="Specialty Fluids">
+                    <h3>Specialty Fluids</h3>
+                    <p>Custom solutions for unique lubrication challenges.</p>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <section id="contact">
+        <div class="container">
+            <h2>Contact Us</h2>
+            <form action="submit_form.php" method="POST">
+                <label for="name">Name:</label>
+                <input type="text" id="name" name="name" required>
+                <label for="email">Email:</label>
+                <input type="email" id="email" name="email" required>
+                <label for="message">Message:</label>
+                <textarea id="message" name="message" required></textarea>
+                <button type="submit" class="btn">Send Message</button>
+            </form>
+        </div>
+    </section>
+
+    <footer>
+        <div class="container">
+            <p>&copy; 2024 Oil & Lubrication Co. All rights reserved.</p>
+        </div>
+    </footer>
+</body>
+</html>
